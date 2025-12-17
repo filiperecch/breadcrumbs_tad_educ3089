@@ -1,7 +1,18 @@
-breadcrumbs is a package to help you find your way home after a long day of getting lost exploring your data. Its primary goal is to provide structure to Rproject directories so that you can readily store code and data in appropriate folders, and coordinate that code and data with ease. 
+# crumbsTADeduc3089
 
-The code for this package can be found at https://github.com/joepowers16/breadcrumbs
+A simple R package to automatically set up standardized project directories for the **EDUC 3089: Text as Data** class at the University of Pittsburgh.
 
-If you wish to complete the vignettes, please download the Google Drive folder https://drive.google.com/drive/folders/1tfx12J8mhEzpEGOil8UIKXP7Mb7V_F7N?usp=sharing and place it directly within the breadcrumbs/ directory.
+This package creates a clean folder structure (`data`, `scripts`, `analyses`) to keep your assignments and research organized and reproducible.
 
-Please note that this package is still in an early phase of development and has fairly low test coverage at this time (2019-05-22). 
+## Installation
+
+You can install the package directly from GitHub:
+
+```r
+# install.packages("remotes")
+remotes::install_github("filiperecch/crumbsTADeduc3089")
+
+Credits
+Maintainer: Filipe Recch (University of Pittsburgh)
+
+Original Author: Based on the [original breadcrumbs package](https://github.com/joepowers16/breadcrumbs) developed by Joe Powers.
